@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+# Free music transposition from a picture!
 
-</body>
-</html>
+upload your picture here: 
+
+### Your current music:
+starting key:
+
+starting octave number: 
+
+### The music you want:
+
+goal key:
+
+goal octave number:
