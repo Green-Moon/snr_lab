@@ -17,7 +17,7 @@ goal octave number:INSERT BOX HERE
 
 here is an example. Say I want to transpose this page of sheet music:
  INSERT PICTURE HERE
- ![]("beet.png")
+ ![](beet.png)
  
 First, I would take a picture of it, and save that picture as a 
 .png file. 
