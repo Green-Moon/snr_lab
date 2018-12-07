@@ -21,10 +21,7 @@ upload your picture here: INSERT BOX HERE
 # Confused?
 
 here is an example. Say I want to transpose this page of sheet music:
- ![](beet.png)
- ![20%](beet.png){:height="50%" width="50%"}
- ![](beet.png | width=24){:height="12px" width="12px"}
- <img src="beet.png" width="200"/>
+<img src="beet.png" width="200"/>
  hi
  
 First, I would take a picture of it, and save that picture as a 
