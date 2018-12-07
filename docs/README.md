@@ -3,19 +3,18 @@
 upload your picture here: INSERT BOX HERE
 
 ### Your current music:
-starting key:INSERT BOX HERE
 
-starting octave number: INSERT BOX HERE
+<form action="/action_page.php">
+  starting key: <input type="text" name="endkey"><br>
+  starting octave number: <input type="text" name="endoctave"><br>
+  <input type="submit" value="Submit">
+</form>
 
 ### The music you want:
 
-goal key:INSERT BOX HERE
-
-goal octave number:INSERT BOX HERE
-
 <form action="/action_page.php">
-  First name: <input type="text" name="fname"><br>
-  Last name: <input type="text" name="lname"><br>
+  goal key: <input type="text" name="endkey"><br>
+  goal octave number: <input type="text" name="endoctave"><br>
   <input type="submit" value="Submit">
 </form>
 
