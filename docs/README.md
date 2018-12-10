@@ -26,8 +26,9 @@ Choose a file to upload: <input name="uploadedfile" type="file" /><br />
 # Confused?
 
 here is an example. Say I want to transpose this page of sheet music:
-<img src="beet.png" width="200"/>
- hi
+
+
+<img src="beet.png" width="200"/> 
  
 First, I would take a picture of it, and save that picture as a 
 .png file. 
