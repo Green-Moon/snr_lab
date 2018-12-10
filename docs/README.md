@@ -21,8 +21,8 @@ upload your picture here: INSERT BOX HERE
 # Confused?
 
 here is an example. Say I want to transpose this page of sheet music:
-<img src="beet.png" width="200"/>
- hi
+![](beet.png)
+<img src="beet.png" width="200"/> hi
  
 First, I would take a picture of it, and save that picture as a 
 .png file. 
