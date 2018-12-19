@@ -1,15 +1,5 @@
 # Free music transposition from a picture!
 
-
-<!-- 
-code from https://www.codingforums.com/php/162542-how-do-i-let-users-upload-pictures.html)
--->
-<form enctype="multipart/form-data" action="uploader.php" method="POST">
-<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
-Upload your music here: <input name="uploadedfile" type="file" /><br />
-<input type="submit" value="Upload File" />
-</form>
-
 <!-- 
 code from https://www.codingforums.com/php/162542-how-do-i-let-users-upload-pictures.html)
 -->
