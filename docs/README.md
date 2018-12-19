@@ -1,9 +1,12 @@
 # Free music transposition from a picture!
 
-upload your picture here: INSERT BOX HERE
+
+<!-- 
+code from https://www.codingforums.com/php/162542-how-do-i-let-users-upload-pictures.html)
+-->
 <form enctype="multipart/form-data" action="uploader.php" method="POST">
 <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
-Choose a file to upload: <input name="uploadedfile" type="file" /><br />
+Upload your music here: <input name="uploadedfile" type="file" /><br />
 <input type="submit" value="Upload File" />
 </form>
 
@@ -42,7 +45,7 @@ in the INSERT OCTAVE HERE octave.
 (Click the following links for information on how to figure out what 
 [key](https://www.themusicalear.com/how-to-identify-key-signatures/) 
 or 
-[octave](INSERT LINKS HERE!!!!!!!!!!!!!!!!!!!!!!!!)
+[octave](http://slideplayer.com/2815825/10/images/16/Note+Names+and+Frequencies.jpg)
  your piece is in.)
 
 So, I would type KEY 
