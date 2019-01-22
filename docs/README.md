@@ -31,6 +31,7 @@ code from https://www.w3schools.com/tags/tag_input.asp
 </form>
 
 # Confused?
+###We are too
 
 here is an example. Say I want to transpose this page of sheet music:
 
@@ -41,7 +42,6 @@ First, I would take a picture of it, and save that picture as a
 .png file. (The picture I show above is a .png)
 
 Then, I would upload the png file to this page, where it says "upload your picture here"
-INSERT PIC OF HOW TO UPLOAD
 
 As you can see, 
 this picture is in the key of INSERT KEY HERE 
