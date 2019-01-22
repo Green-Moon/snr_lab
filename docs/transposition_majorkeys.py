@@ -86,7 +86,13 @@ def copy_all(filename, original, new, direction):
             #print(pitch_section) # it does this right
             if "</pitch" in line:
                 in_note = False
+<<<<<<< HEAD
                 newline = note_tranposition(pitch_section, notediff) # [<pi, </pitch>] # incl, incl
+=======
+                print(pitch_section)
+                newline = note_tranposition(pitch_section, notediff) # [<pi, </pitch>] # incl, incl
+                print(newline, "END :)")
+>>>>>>> 4170aca6fdbb45aa224bf0386244e99302511e4a
                 pitch_section = []
                 for l in newline:
                     newfile.write(l)
