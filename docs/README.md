@@ -1,39 +1,24 @@
 # Free music transposition from a picture!
 
-<!-- 
-code from https://www.codingforums.com/php/162542-how-do-i-let-users-upload-pictures.html)
--->
-<form enctype="multipart/form-data" action="uploader.php" method="POST">
-<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
-Upload your music here: <input name="uploadedfile" type="file" /><br />
-<input type="submit" value="Upload File" />
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <h3>Upload your music here: <input name="fileToUpload" type="file" /><br />
+    <br></h3>
+    <h3>Tell us about your current music: </h3>
+    starting key: <input type="text" name="endkey"><br>
+    starting octave number: <input type="text" name="endoctave"><br>
+    <br>
+    <h3>tell us about what you want your music to be: </h3>
+    goal key: <input type="text" name="endkey"><br>
+    goal octave number: <input type="text" name="endoctave"><br>
+    <br>
+    <input type="submit" value="Upload File" />
 </form>
 
-### Your current music:
-<!--
-code from https://www.w3schools.com/tags/tag_input.asp
--->
 
-<form action="/action_page.php">
-  starting key: <input type="text" name="endkey"><br>
-  starting octave number: <input type="text" name="endoctave"><br>
-  <input type="submit" value="Submit">
-</form>
-
-### The music you want:
-
-<form action="/action_page.php">
-  goal key: <input type="text" name="endkey"><br>
-  goal octave number: <input type="text" name="endoctave"><br>
-  <input type="submit" value="Submit">
-</form>
 
 # Confused?
-###We are too
 
-here is an example. Say I want to transpose this page of sheet music:
-
-
+here is an example. Say I want to transpose this page of sheet music: 
 <img src="beet.png" width="200"/> 
  
 First, I would take a picture of it, and save that picture as a 
