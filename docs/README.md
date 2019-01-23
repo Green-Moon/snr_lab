@@ -1,8 +1,9 @@
 # Free music transposition from a picture!
 
 <form action="upload.php" method="post" enctype="multipart/form-data">
-    <h3>Upload your music here: <input name="fileToUpload" type="file" /><br />
-    <br></h3>
+    <h3>Upload your music here:</h3>
+    <input name="fileToUpload" type="file" /><br />
+    <br>
     <h3>Tell us about your current music: </h3>
     starting key: <input type="text" name="endkey"><br>
     starting octave number: <input type="text" name="endoctave"><br>
@@ -19,6 +20,10 @@
 # Confused?
 
 here is an example. Say I want to transpose this page of sheet music: 
+
+
+
+
 <img src="beet.png" width="200"/> 
  
 First, I would take a picture of it, and save that picture as a 
