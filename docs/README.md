@@ -1,18 +1,14 @@
 # Free music transposition from a picture!
 
 <form action="upload.php" method="post" enctype="multipart/form-data">
-    <h3>Upload your music here:</h3>
-    <input name="fileToUpload" type="file" /><br />
-    <br>
-    <h3>Tell us about your current music: </h3>
+    Upload your music here:<br><input name="fileToUpload" type="file" /><br />
+    Tell us about your current music:<br>
     starting key: <input type="text" name="endkey"><br>
     starting octave number: <input type="text" name="endoctave"><br>
-    <br>
-    <h3>tell us about what you want your music to be: </h3>
+    tell us about what you want your music to be: <br>
     goal key: <input type="text" name="endkey"><br>
     goal octave number: <input type="text" name="endoctave"><br>
-    <br>
-    <input type="submit" value="Upload File" />
+    <input type="submit" value="Upload File" name="submit">
 </form>
 
 
